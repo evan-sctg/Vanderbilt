@@ -1,0 +1,206 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~jquery-ui/themes/base/all.css';
+
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+  html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+	    
+         
+            .ResultsContainer div{
+            float: left;
+            }
+	    
+            .ItemContainer{
+            padding: 5px;
+            }
+	    
+            .ItemContainer .ItemBorder{
+            padding: 15px;
+            max-width: 100%;
+	
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 25px;
+            }
+	    
+            .ItemContainer img, .ItemContainer .projectView {
+            width: 100%;
+            }
+            .ItemDescription  {
+            margin-top: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid;
+            overflow-wrap: break-word;
+            }
+	    
+            .ItemContainer  {
+            font-size: 20px;
+            }
+            .ItemTitle  {       
+            border-bottom: 1px solid;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            overflow-wrap: break-word;
+            }
+	        .itemAuthor{
+	        text-align: center;
+	        padding: 10px;
+	        background-clip: border-box;
+	        border: 1px solid rgba(0, 0, 0, 0.125);
+	        border-radius: 25px;
+	        }
+	        .itemStats{
+	        text-align: right;
+	        }
+	        .ItemDate{
+	        font-size: 15px;
+	        }
+	    
+	        .nav>li>a {
+	        position: relative;
+	        display: block;
+	        padding: 10px 15px;
+	        }
+	    
+	        .nav>li>a:focus, .nav>li>a:hover {
+	        border-radius: 4px;
+	        text-decoration: none;
+	        background-color: #eee;
+	        }
+	        .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {	    
+	        border-radius: 4px;
+	        color: #fff;
+	        background-color: #337ab7;
+	        }
+	    
+	    
+	   
+	        .ItemDescription{    
+	        padding: 5px;
+	        background-color: #eaeaea;
+	        border-radius: 10px;
+	        }
+
+            .paging{
+            text-align: center;
+            }
+            .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+            color: #555;
+            cursor: default;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            }
+
+            .nav-tabs>li {
+            float: left;
+            margin-bottom: -1px;
+            }
+
+
+            .float-cont>div{
+                float:left;
+            }
+
+            .progress-bar {
+            color: #000;
+            }
+
+
+            .ScanDetails{            
+            border: 1px solid;
+            margin: 50px;
+            padding: 55px;
+            border-radius: 10px;            
+            }
+
+            .CenterText{    
+            text-align: center;           
+            }
+
+            .stepResponse {
+            font-weight: 400;
+            color: black;
+            }
+        
+            .grid-list-toggle{
+             font-size: 50%;
+            }
+            .grid-list-toggle svg{
+             max-width: 25px;
+            }
+
+            .grid-list-toggle-cont{
+             margin-right: 25px;
+             padding-bottom: 25px;
+             margin-top: 25px;
+            }
+
+            .InstructionList>li{
+             padding-bottom: 15px;            
+            }
